@@ -14,5 +14,5 @@ Competency in DSA is necessary for a software developer to write effective and e
 
 Following are links to the main directories in the repo and a brief description of each. The directories are listed in reverse chronological order (based on date created).
 
--   [algorithms1](/algorithms1/) - To my shame, it's been far too long since I last spent time studying DSA. I decided to get back into the subject by working through Coursera's [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1). This is a free course provided by Princeton University and taught by Kevin Wayne and Robert Sedgewick.
+-   [algorithms1](/algorithms1/) - To my shame, it's been far too long since I last spent time studying DSA. I decided to get back into the subject by working through the course [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) by Princeton University and taught by Kevin Wayne and Robert Sedgewick.
 -   [firehose](/firehose/) - My first explorations of DSA, which I completed while attending the Firehose Project web development bootcamp.
