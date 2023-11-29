@@ -17,6 +17,6 @@ Competency in DSA is necessary for a software developer to write effective and e
 
 Following are links to the main directories in the repo and a brief description of each.
 
-- [algorithms1](/algorithms1/) - [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) by Princeton University and taught by Kevin Wayne and Robert Sedgewick.
+- [algorithms1](/algorithms1/) - Princeton University's [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1) taught by Kevin Wayne and Robert Sedgewick.
 - [firehose](/firehose/) - DSA explorations from the Firehose Project web development bootcamp.
 - [leetcode](/leetcode/) - Solutions to LeetCode problems.
