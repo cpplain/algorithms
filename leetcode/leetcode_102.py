@@ -11,11 +11,11 @@ from collections import deque
 #         self.right = right
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        if not root:
-            return []
+        queue = deque()
+        result = []
 
-        queue = deque([[root]])
-        result = [[root.val]]
+        if root:
+            queue.append([root])
 
         while queue:
             curr_level = queue.popleft()
@@ -23,17 +23,16 @@ class Solution:
             values = []
 
             for node in curr_level:
+                values.append(node.val)
+
                 if node.left:
                     next_level.append(node.left)
-                    values.append(node.left.val)
                 if node.right:
                     next_level.append(node.right)
-                    values.append(node.right.val)
 
             if next_level:
                 queue.append(next_level)
 
-            if values:
-                result.append(values)
+            result.append(values)
 
         return result
